@@ -1,0 +1,4 @@
+server: irc.freenode.net
+password: super_secret
+channels:
+  - "#sponsorpay"
