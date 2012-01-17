@@ -23,7 +23,6 @@ bot = Cinch::Bot.new do
     c.password = config["password"]
     c.channels = config["channels"]
     c.plugins.plugins = [UrbanDictionary]
-    puts c.inspect
   end
 
   on :message, /spitbot/i do |m|
