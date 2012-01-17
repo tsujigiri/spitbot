@@ -14,7 +14,6 @@ Dir.foreach("plugins") do |file|
 end
 
 config = YAML.load(File.read("config.yml"))
-puts config.inspect
 
 bot = Cinch::Bot.new do
   configure do |c|
